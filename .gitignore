@@ -22,10 +22,10 @@ rad.json
 TestResults.xml
 
 mkdir empty_folder
-touch empty_folder/README.md
-echo "# Empty Folder" > empty_folder/README.md
+touch empty_folder/Module
+echo "# Empty Folder" > empty_folder/Module
 echo "
-This folder is intended for..." >> empty_folder/README.md
-git add empty_folder/README.md
-git commit -m "Add README for empty_folder"
+This folder is intended for..." >> empty_folder/Module
+git add empty_folder/Module
+git commit -m "Add Module for empty_folder"
 git push
