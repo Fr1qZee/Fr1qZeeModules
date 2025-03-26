@@ -20,3 +20,13 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+mkdir empty_folder
+touch empty_folder/.gitignore
+echo "# Ignore everything in this directory" > empty_folder/.gitignore
+echo "*" >> empty_folder/.gitignore
+echo "# Except this file" >> empty_folder/.gitignore
+echo "!.gitignore" >> empty_folder/.gitignore
+git add empty_folder/.gitignore
+git commit -m "Add empty_folder to keep it in repo"
+git push
