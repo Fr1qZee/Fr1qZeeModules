@@ -20,12 +20,3 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-
-mkdir empty_folder
-touch empty_folder/Module
-echo "# Empty Folder" > empty_folder/Module
-echo "
-This folder is intended for..." >> empty_folder/Module
-git add empty_folder/Module
-git commit -m "Add Module for empty_folder"
-git push
